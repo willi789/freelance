@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Header from './src/components/Header';
-import Sidebar from './src/components/Sidebar';
-import Dashboard from './src/components/Dashboard';
-import Missions from './src/components/Missions';
-import Applications from './src/components/Applications';
-import Messages from './src/components/Messages';
-import Profile from './src/components/Profile';
-import Setting from './src/components/Setting';
-import Onboarding from './src/components/Onboarding';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Dashboard from './components/Dashboard';
+import Missions from './components/Missions';
+import Applications from './components/Applications';
+import Messages from './components/Messages';
+import Profile from './components/Profile';
+import Setting from './components/Setting';
+import Onboarding from './components/Onboarding';
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
