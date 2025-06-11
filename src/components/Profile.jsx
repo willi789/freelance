@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Edit3, Save, Camera, Upload, Download, Star, Award, MapPin, Calendar, Mail, Phone, Linkedin, Github, Globe, Plus, X, Check, ChevronDown, ChevronRight, Eye, EyeOff, Briefcase, GraduationCap, AlignCenterVertical as Certificate, Heart, Shield, Target, Zap, TrendingUp, BarChart3, FileText, Image, ExternalLink, Copy, Share2, Settings, Lock, Trash2, AlertCircle, CheckCircle, Info, Sparkles, Building } from 'lucide-react';
+import { User, Edit3, Save, Camera, Upload, Download, Star, Award, MapPin, Calendar, Mail, Phone, Linkedin, Github, Globe, Plus, X, Check, ChevronDown, ChevronRight, Eye, EyeOff, Briefcase, GraduationCap, AlignCenterVertical as Certificate, Heart, Shield, Target, Zap, TrendingUp, BarChart3, FileText, Image, ExternalLink, Copy, Share2, Settings, Lock, Trash2, AlertCircle, CheckCircle, Info, Sparkles, Building, Clock } from 'lucide-react';
 
 const Profile = ({ user }) => {
   const [activeTab, setActiveTab] = useState('overview');
